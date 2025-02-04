@@ -1,0 +1,29 @@
+.container{
+    width: 100%;
+}
+
+.contact{
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42adfa;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.contact:hover{
+    background-color: #2791dd;
+}
+
+.contact:active{
+    background-color: #42adfa;
+}
+
+@media (max-width: 768px){
+    .contact{
+        margin: 20px 0;
+        height: 50px;
+    }
+}

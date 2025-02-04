@@ -1,0 +1,26 @@
+:root{
+  --bg: #fff;
+  --text: #000;
+  --btn: #4287f5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+}
+
+a{
+  color: var(--text);
+  text-decoration: none;
+}
+
+.container{
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+}
