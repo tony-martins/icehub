@@ -7,7 +7,7 @@
     align-items: center;
     padding: 0 50px;
     width: 100%;
-
+    /* position: fixed; */
 }
 
 .navItems{
@@ -33,6 +33,11 @@
     width: 150px;
 }
 
+.myImg{
+    height: 90px;
+    width: 90px;
+}
+
 
 @media (max-width:800px){
 
@@ -44,7 +49,7 @@
     .myImg{
         height: 90px;
         width: 90px;
-        margin-top: -10px;
+        margin-left: -20px;
     }
     
     .but{

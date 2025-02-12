@@ -2,7 +2,11 @@
 
 const workspacePage = () => {
   return (
-    <div>workspacePage</div>
+    <div>
+      
+            <h2>Workspace & collaboration</h2>
+         
+    </div>
   )
 }
 
